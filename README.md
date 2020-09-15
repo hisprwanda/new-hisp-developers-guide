@@ -59,9 +59,9 @@ Python can be used to mine and analyse and `dhis2` data.
 ### 4. Github Account and Usage
 Having a github account is recommended for any software developer. Please follow this link to learn how to setup you account if you don't have it yet.
 
-- A
-- B 
-- D 
+- Visit www.github.com
+- Choose create account
+- Create a sample repositor
 
 ## 5. Creating DHIS2 App
 The assignment here is to create a hello world `dhis` app.
