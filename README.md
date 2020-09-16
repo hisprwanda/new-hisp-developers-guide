@@ -1,11 +1,11 @@
-# New Developers Guide - HISP Rwanda
-A detailed guide of necessary basic skills, tech tools, APIs, tutorials and documents that a new HISP Rwanda developer can use as a guide.
+# Developer Guide - HISP Rwanda
+A detailed guide of necessary basic skills, tech tools, APIs, tutorials and documents that a new HISP Rwanda developer can use as a guide to get started.
 
 ## Document Editors 
 | Name            | email                   | Role                
 | ----------------|:-----------------------:| ------------------:|
 | Maurice Jules M.| mauricej@hisprwanda.org | Software Developer |
-| Didier I.       | digiraneza@hisprwanda.org    |Software Developer  |
+| Didier I.       | digiraneza@hisprwanda.org|Software Developer  |
 
 ## 1. General understanding of what is DHIS2
 HISP Rwanda uses `dhis2` platform extensively for web and mobile apps development.
@@ -15,16 +15,25 @@ You will find different useful resources that will help you understand it and ge
 ### 1.1. DHIS2 main website
 - About
 - DHIS2 resources
-- Success story
+- Success stories: 
+    - [Link1 ](https://www.dhis2.org/rwanda-covid-testing) about Rwanda & 
+    - [Link 2](https://www.dhis2.org/in-action) about other cases
 
 
 ### 1.2. Dhis2 fundamentals 
 This course will help you understand fundamentals of dhis2. You can click on the links to read more. 
-- [Link](https://docs.dhis2.org/2.34/en/dhis2_developer_manual/web-api.html#introduction) 
+- [Link to the course](https://academy.dhis2.org/courses/HISP/DHIS2_Level1/2015_Q1/about)
+    - Create an account 
+    - Navigate to courses
+
+- In this course: try to go through the first 3 modules as quick as you can, then **focus on Module 4 - Introduction to DHIS2 Customization current chapter**. 
+
+The most important things to understand before you start using `dhis2` are the following: 
+- Organization units
 - Data elements
 - Organization unit
-- Dataset 
-- Etc ...
+- Data Sets 
+
 
 ### 1.3. DHIS2 Web API 
 This web api contains everything a developer will need to access data from dhis core apps. 
@@ -37,6 +46,18 @@ For example, Analytics, Event Data, Enrollment, Sending messages, etc.
 - [Analytics](https://docs.dhis2.org/2.34/en/dhis2_developer_manual/web-api.html#analytics)
 - Messaging (email & sms)
 - Org Unit Analytics. 
+
+### 1.4. Using Postman to test dhis2 APIs
+If you don't have it already, download postman [here](https://www.postman.com/downloads/)
+- You can start testing dhis2 API using postman
+    - Main dhis2 demo endpoint `https://play.dhis2.org/2.34.1/api/ `
+    - dhis2 demo credentials:
+        - username: `admin`
+        - password: `district`
+
+Example of a GET request:
+    - Performing a GET request on this endpoint `https://play.dhis2.org/2.34.1/api/me `gives you the information about he current user in dhis2 instance
+
 
 ## 2. Understanding React
 React is an open-source JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.
@@ -59,9 +80,9 @@ Python can be used to mine and analyse and `dhis2` data.
 ### 4. Github Account and Usage
 Having a github account is recommended for any software developer. Please follow this link to learn how to setup you account if you don't have it yet.
 
-- Visit www.github.com
+- Visit <www.github.com>
 - Choose create account
-- Create a sample repositor
+- Create a sample repository
 
 ## 5. Creating DHIS2 App
 The assignment here is to create a hello world `dhis` app.
